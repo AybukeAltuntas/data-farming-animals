@@ -1,5 +1,6 @@
 """
-Bu komut dosyası, hayvanların etkileşime girip eylemler gerçekleştirdiği bir çiftlik günlüğünü simüle eder.
+Bu komut dosyası, hayvanların etkileşime girip eylemler gerçekleştirdiği
+bir çiftlik günlüğünü simüle eder.
 
 Farklı hayvanların (örneğin inekler ve tavuklar) davranışlarını şu şekilde gösterir:
 - Onları "konuşturarak” karakteristik seslerini sergilemek.
@@ -33,7 +34,6 @@ animals = [cow, female_chicken, male_chicken]
 # 2. Her hayvan için `feed` yöntemini çağır (liste üzerinde bir döngü kullan)
 for animal in animals:
     animal.feed()
-
 
 # 4. Aşağıdaki 3 satırı yazdırın:
 # "The cow produced ## liters of milk"
