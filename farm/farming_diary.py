@@ -28,15 +28,21 @@ print(f"Erkek tavuk {male_chicken.talk()} diyor")
 print("\n\n📝 Dördüncü Gün: Hayvanları Besle")
 
 # 1. Tüm hayvanlarını `animals` listesinde sakla
-
+animals = [cow, female_chicken, male_chicken]
 
 # 2. Her hayvan için `feed` yöntemini çağır (liste üzerinde bir döngü kullan)
+for animal in animals:
+    animal.feed()
 
-
-# 3. TODO'ları değiştirin
 
 # 4. Aşağıdaki 3 satırı yazdırın:
 # "The cow produced ## liters of milk"
 # "The female chicken produced ## eggs"
 # "The male chicken produced ## eggs"
-pass  # KODUNUZ BURAYA
+    if isinstance(animal, Cow):
+        print(f"The cow produced {animal.milk} liters of milk")
+    elif isinstance(animal, Chicken):
+        if animal.gender == "female":
+            print(f"The female chicken produced {animal.eggs} eggs")
+        else:
+            print(f"The male chicken produced {animal.eggs} eggs")
