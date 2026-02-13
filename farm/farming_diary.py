@@ -28,10 +28,10 @@ print(f"Erkek tavuk {male_chicken.talk()} diyor")
 print("\n\n📝 Dördüncü Gün: Hayvanları Besle")
 
 # 1. Tüm hayvanlarını `animals` listesinde sakla
-pass  # BURAYA KODUNU YAZ
+
 
 # 2. Her hayvan için `feed` yöntemini çağır (liste üzerinde bir döngü kullan)
-pass  # BURAYA KODUNU YAZ
+
 
 # 3. TODO'ları değiştirin
 
